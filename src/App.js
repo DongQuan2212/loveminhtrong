@@ -270,11 +270,6 @@ export default function RomanticHeartsImproved() {
         }
     };
 
-    const deletePhoto = (photoId) => {
-        setPhotos(prev => prev.filter(p => p.id !== photoId));
-        setSelectedPhoto(null);
-    };
-
     return (
         <>
             <div className="container">
